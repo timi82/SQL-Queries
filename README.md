@@ -5,7 +5,7 @@
 Problem 1
 
 
-**•	Return the customer IDs of customers who have spent at least $110 with the staff member who has an ID of 2.**
+**Return the customer IDs of customers who have spent at least $110 with the staff member who has an ID of 2.**
 
 
 Solution
@@ -39,7 +39,7 @@ Counts all the values in the film table based on parameters.
 2.	WHERE title LIKE 'J%';
 Returns all films that begin with the letter ‘J’
 
-So in essence, it returns the count of films that begin with the letter ‘J’. 
+ So in essence, it returns the count of films that begin with the letter ‘J’. 
 
 
 
