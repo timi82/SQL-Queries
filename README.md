@@ -2,7 +2,7 @@
 
 **A few Solutions to business problems utilizing SQL in a video rental store database**
 
-#Problem 1
+# Problem 1
 
 
 **Return the customer IDs of customers who have spent at least $110 with the staff member who has an ID of 2.**
