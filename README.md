@@ -10,7 +10,7 @@ Problem 1
 Solution
 1.	SELECT customer_id , SUM(amount)
 
-Select the Customer id and Amount fields/columns from the payment table. Sum(amount) Aggregates the total payment made by each unique customer .
+Selects the Customer id and Amount fields/columns from the payment table. Sum(amount) Aggregates the total payment made by each unique customer?customer_id .
 
 2.	FROM payment
 
