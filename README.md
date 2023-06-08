@@ -28,6 +28,8 @@ Group  BY clause used to group the values in customer_id column of the payment t
 Returns values of the sum total payment that is greater than 110   
 
 
+
+
 Problem 2
 
 **How many films begin with the letter J?**
