@@ -39,7 +39,7 @@ Counts all the values in the film table based on parameters.
 2.	WHERE title LIKE 'J%';
 Returns all films that begin with the letter ‘J’
 
- So in essence, it returns the count of films that begin with the letter ‘J’. 
+      So in essence, it returns the count of films that begin with the letter ‘J’. 
 
 
 
