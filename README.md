@@ -1,6 +1,7 @@
 # SQL-Queries
 
-**A few Solutions to business problems utilizing SQL **
+**A few Solutions to business problems utilizing SQL in a video rental store database**
+
 Problem 1
 
 
@@ -26,6 +27,19 @@ Group  BY clause used to group the values in customer_id column of the payment t
 5.	HAVING SUM(amount) > 110;
 Returns values of the sum total payment that is greater than 110   
 
+
+Problem 2
+
+**How many films begin with the letter J?**
+
+Solution
+1.	SELECT COUNT(*) FROM film
+Counts all the values in the film table based on parameters. 
+ 
+2.	WHERE title LIKE 'J%';
+Returns all films that begin with the letter ‘J’
+
+So in essence, it returns the count of films that begin with the letter ‘J’. 
 
 
 
