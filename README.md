@@ -11,7 +11,7 @@
 Solution
 1.	SELECT customer_id , SUM(amount)
 
-Selects the Customer id and Amount fields/columns from the payment table. Sum(amount) Aggregates the total payment made by each unique customer?customer_id  .
+Selects the Customer id and Amount fields/columns from the payment table. Sum(amount) Aggregates the total payment made by each customer
 
 2.	FROM payment
 
@@ -19,11 +19,11 @@ The table with the data we need to perform the query
 
 3.	WHERE staff_id = 2
 
-The where clause acts as a filter to limit the result of the query based on specific parameters i.e. Only return a result of staff member whose id number is 2.
+The where clause acts as a filter to limit the result of the query based on specific parameters i.e. Only return a result of a staff member whose id number is 2.
 
 4.	GROUP BY customer_id
 
- Group  BY clause used to group the values in customer_id column of the payment table
+ Group  BY clause is used to group the values in the customer_id column of the payment table
 
 5.	HAVING SUM(amount) > 110;
 
@@ -71,7 +71,7 @@ Sorts the customer’s id number
 
 5.	LIMIT 1;
 
-Returns only on row of  the final result 
+Returns only on a row of  the final result 
 
 
 
